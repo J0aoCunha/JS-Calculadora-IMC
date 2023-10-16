@@ -98,3 +98,65 @@ body {
 .input-field input::-webkit-inner-spin-button {
     appearance: none;
 }
+
+#Calculate {
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #f8fafc;
+    background-color: #1ca7ca;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#results {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-top: 1px solid #ffffff34;
+    padding: 0.75rem 0;
+}
+
+#bmi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+
+#bmi span:last-child {
+    font-size: 0.875rem;
+    color: #cbd5e1;
+}
+
+#description {
+    width: 15.5rem;
+}
+
+#more_infos {
+    border-top: 1px solid #ffffff34;
+    padding-top: 1.5rem;
+}
+
+#more_infos a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: color 0.3s;
+    color: #1ca7ca;
+}
+
+#more_infos a:hover {
+    color: #cbd5e1;
+}
+
+
+.hidden {
+    display: none;
+}
