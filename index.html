@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="assets/calculator.svg" type="image/x-icon">
     <!-- link css -->
     <link rel="stylesheet" href="/style/style.css">
-
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -25,17 +24,17 @@
         <section id="calculator">
             <form id="form">
                 <h1 id="title">
-                    Calculadora -IMC
+                    Calculadora - IMC
                 </h1>
 
                 <div class="input-box">
 
-                    <label for="weigth">
+                    <label for="weight">
                         Peso em Kg
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-weight-hanging" style="color:  #1ca7ca;"></i>
-                        <input type="number" id="weigth" required>
+                        <input type="number" id="weight" step="0.01" required>
                         <span>Kg</span>
                     </div>
                 </div>
@@ -46,7 +45,7 @@
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler" style="color:  #1ca7ca;"></i>
-                        <input type="number" id="height" required>
+                        <input type="number" id="height" step="0.01" required>
                         <span>M</span>
                     </div>
                 </div>
@@ -60,10 +59,10 @@
                         <span id="value">
 
                         </span>
-                        <span>Seu IMc</span>
+                        <span>Seu IMC</span>
                     </div>
-                    <div id="description">
-                        <span></span>
+                    <div>
+                        <span id="description"></span>
                     </div>
                 </div>
 
@@ -73,6 +72,7 @@
                         Mais informaçõses sobre o IMC
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
+
                 </div>
 
             </div>
@@ -82,7 +82,7 @@
 
 
     <!-- links JavaScript -->
-    <script src=" script/script.js"></script>
+    <script src="script/script.js"></script>
 
 </body>
 
