@@ -2,23 +2,18 @@
 
 Este é um projeto de uma calculadora de Índice de Massa Corporal (IMC) desenvolvida usando HTML, CSS e JavaScript. O IMC é uma medida que indica se você tem um peso saudável em relação à sua altura. Esta aplicação simples permite que os usuários insiram seu peso e altura para calcular seu IMC e exibe o resultado na página.
 
-## Como Funciona
+## Como Usar
 
-1. Abra o arquivo `index.html` em seu navegador.
-2. Preencha os campos de peso (em kg) e altura (em metros).
-3. Clique no botão "Calcular IMC".
-4. O resultado do cálculo do IMC será exibido na página.
+1. Abra o aplicativo em seu navegador.
 
-## Estrutura do Projeto
+2. Preencha os campos com suas informações:
+   - **Peso em Kg**: Insira seu peso em quilogramas.
+   - **Altura em metros**: Insira sua altura em metros.
 
-- `index.html`: O arquivo HTML que contém a estrutura da página.
-- `style.css`: O arquivo CSS para estilizar a página.
-- `script.js`: O arquivo JavaScript que realiza o cálculo do IMC.
+3. Clique no botão "Calcular".
 
-## Licença
+4. O seu IMC será exibido na tela, juntamente com uma descrição do seu estado de saúde com base no IMC calculado.
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+## Links
 
----
-
-**Aproveite a calculadora de IMC!** 😊
+- [Repositório no GitHub](link)
